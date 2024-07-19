@@ -6,7 +6,7 @@ const cors = require('cors');
 class Server {
     constructor() {
         this.app = express();
-        this.port = process.env.PORT ||3000;
+        this.port = process.env.PORT ||3001;
         this.clientesPath = '/clientes';
         this.departmentPath = '/departamentos';
         this.conectarDB();
